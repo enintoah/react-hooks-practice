@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import { MouseContainer } from './components/useEffect/MouseContainer';
+import { DataFetching } from './components/useEffect/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <MouseContainer/>
+      <DataFetching />
     </div>
   );
 }
