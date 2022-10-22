@@ -10,6 +10,9 @@ import ClassTimer from './components/useRef/ClassTimer';
 import { HookTimer } from './components/useRef/HookTimer';
 import { DocTitleOne } from './components/customHooks/DocTitleOne';
 import { DocTitleTwo } from './components/customHooks/DocTitleTwo';
+import { CounterOne } from './components/customHooks/CounterOne';
+import { CounterTwo } from './components/customHooks/CounterTwo';
+import { UserForm } from './components/customHooks/UserForm';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -57,8 +60,7 @@ function App() {
     //   </div>
     // </CountContext.Provider>
     <div className='App'>
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      <UserForm/>
     </div>
   );
 }
