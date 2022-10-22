@@ -1,8 +1,8 @@
 import React from 'react'
 import { useContext } from 'react'
-import { CountContext } from '../../App'
+import { CountContext } from '../../../App'
 
-export const ComponentF = () => {
+export const ComponentD = () => {
 
   const countContext = useContext(CountContext)
 

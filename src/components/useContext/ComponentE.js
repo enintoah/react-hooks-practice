@@ -10,8 +10,8 @@ export const ComponentE = () => {
 
   return (
     <div>
-      {/* <ComponentF /> */}
-      {user} - {channel}
+      <ComponentF />
+      {/* {user} - {channel} */}
     </div>
   )
 }
